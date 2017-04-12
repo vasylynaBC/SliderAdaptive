@@ -1,0 +1,45 @@
+.body{
+    
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px ;
+    
+}
+
+.main{
+    display: block;
+    
+}
+.block{
+    width: 100px;
+    height: 150px;
+    background-image: url(../img/0.jpg);
+    background-repeat: no-repeat;
+background-position: center;    
+}
+.text{
+    width: 100px;
+    
+    text-align: justify;
+}
+
+h3{
+    text-align: center;
+}
+
+.right{
+    transform: rotate(180deg);
+    left: 100%;
+    top: 50%;
+    width: 20px;
+}
+.left{
+    top: 50%;
+        width: 20px;
+
+}
+.but{position: absolute;
+    top: 100%;
+    
+}
